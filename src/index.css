@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #printable {
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: top left;
+  }
+}
